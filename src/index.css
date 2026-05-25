@@ -1,0 +1,18 @@
+/* Remove default Vite centering */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b0e1a;
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+/* IMPORTANT: make root full width */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
